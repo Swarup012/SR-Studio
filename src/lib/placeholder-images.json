@@ -1,3 +1,100 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "bengali_wedding_hero.jpg",
+      "description": "A beautiful Bengali bride during her wedding ceremony",
+      "imageUrl": "https://images.unsplash.com/photo-1732381915285-953ce9832512?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxiZW5nYWxpJTIwYnJpZGV8ZW58MHx8fHwxNzYxNjU3OTQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bengali bride"
+    },
+    {
+      "id": "prewedding_shoot.jpg",
+      "description": "A couple in a romantic pre-wedding shoot",
+      "imageUrl": "https://images.unsplash.com/photo-1682459337036-e7bbc3986d53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb3VwbGUlMjByb21hbnRpY3xlbnwwfHx8fDE3NjE1NzE0OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "couple romantic"
+    },
+    {
+      "id": "wedding_photography.jpg",
+      "description": "Candid shot of a wedding ceremony",
+      "imageUrl": "https://images.unsplash.com/photo-1595407753234-0882f1e77954?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3ZWRkaW5nJTIwY2VyZW1vbnl8ZW58MHx8fHwxNzYxNjQ1NjQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding ceremony"
+    },
+    {
+      "id": "wedding_videography.jpg",
+      "description": "A still from a cinematic wedding video",
+      "imageUrl": "https://images.unsplash.com/photo-1629938828025-41bbeeb843fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwZmlsbXxlbnwwfHx8fDE3NjE1ODgzNTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding film"
+    },
+    {
+      "id": "arindam_dutta.jpg",
+      "description": "Portrait of Arindam Dutta, lead photographer",
+      "imageUrl": "https://images.unsplash.com/photo-1614772903208-613ed4282ded?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYWxlJTIwcGhvdG9ncmFwaGVyfGVufDB8fHx8MTc2MTY1Nzk0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male photographer"
+    },
+    {
+      "id": "moumita_roy.jpg",
+      "description": "Portrait of Moumita Roy, cinematographer",
+      "imageUrl": "https://images.unsplash.com/photo-1602566356438-dd36d35e989c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmZW1hbGUlMjBjaW5lbWF0b2dyYXBoZXJ8ZW58MHx8fHwxNzYxNjU3OTQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "female cinematographer"
+    },
+    {
+      "id": "soham_ghosh.jpg",
+      "description": "Portrait of Soham Ghosh, assistant photographer",
+      "imageUrl": "https://images.unsplash.com/photo-1693339057297-ff87b84eb484?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYWxlJTIwcGhvdG9ncmFwaGVyJTIwc21pbGluZ3xlbnwwfHx8fDE3NjE2NTc5NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male photographer smiling"
+    },
+    {
+      "id": "pre1.jpg",
+      "description": "Pre-wedding photo 1",
+      "imageUrl": "https://images.unsplash.com/photo-1615966650071-855b15f29ad1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjb3VwbGUlMjBzdW5zZXR8ZW58MHx8fHwxNzYxNTQ2NzM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "couple sunset"
+    },
+    {
+      "id": "pre2.jpg",
+      "description": "Pre-wedding photo 2",
+      "imageUrl": "https://images.unsplash.com/photo-1730487566846-ace228c19d55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb3VwbGUlMjBjaXR5fGVufDB8fHx8MTc2MTY1NjgyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "couple city"
+    },
+    {
+      "id": "pre3.jpg",
+      "description": "Pre-wedding photo 3",
+      "imageUrl": "https://images.unsplash.com/photo-1653688529460-83ed61d654b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y291cGxlJTIwbmF0dXJlfGVufDB8fHx8MTc2MTY1NjgyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "couple nature"
+    },
+    {
+      "id": "wed1.jpg",
+      "description": "Wedding ceremony photo 1",
+      "imageUrl": "https://images.unsplash.com/photo-1732382255625-24e8547a23d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxiZW5nYWxpJTIwd2VkZGluZ3xlbnwwfHx8fDE3NjE2NTc5NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bengali wedding"
+    },
+    {
+      "id": "wed2.jpg",
+      "description": "Wedding ceremony photo 2",
+      "imageUrl": "https://images.unsplash.com/photo-1758141247320-7ed9c9709b88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d2VkZGluZyUyMHJpdHVhbHN8ZW58MHx8fHwxNzYxNjU3OTQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding rituals"
+    },
+    {
+      "id": "wed3.jpg",
+      "description": "Wedding ceremony photo 3",
+      "imageUrl": "https://images.unsplash.com/photo-1677691257005-9d69ab23f485?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxicmlkZSUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MTU1OTQxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bride portrait"
+    },
+    {
+      "id": "rec1.jpg",
+      "description": "Reception photo 1",
+      "imageUrl": "https://images.unsplash.com/photo-1618107095181-e3ba0f53ee59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d2VkZGluZyUyMHJlY2VwdGlvbnxlbnwwfHx8fDE3NjE1ODM4NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding reception"
+    },
+    {
+      "id": "rec2.jpg",
+      "description": "Reception photo 2",
+      "imageUrl": "https://images.unsplash.com/photo-1566902249079-c97d67671278?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb3VwbGUlMjBkYW5jaW5nfGVufDB8fHx8MTc2MTY1Nzk0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "couple dancing"
+    },
+    {
+      "id": "rec3.jpg",
+      "description": "Reception photo 3",
+      "imageUrl": "https://images.unsplash.com/photo-1535254973040-607b474cb50d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwY2FrZXxlbnwwfHx8fDE3NjE1NjY4MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wedding cake"
+    }
+  ]
 }
