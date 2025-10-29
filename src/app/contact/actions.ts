@@ -31,14 +31,12 @@ export async function submitContactForm(values: z.infer<typeof formSchema>) {
         },
     });
 
-    const to = email; // Send the email to the user who filled the form
-    const subject = `Thank you for contacting Bengali Snaps!`;
+    const to = "swarupbasu@gmail.com";
+    const subject = `New Inquiry from ${name} via Bengali Snaps Website`;
     const body = `
-        Hi ${name},
+        You have received a new inquiry from your website contact form.
 
-        Thank you for reaching out to us. We have received your message and will get back to you as soon as possible.
-
-        Here are the details you submitted:
+        Here are the details:
 
         Name: ${name}
         Email: ${email}
@@ -47,14 +45,14 @@ export async function submitContactForm(values: z.infer<typeof formSchema>) {
         Message:
         ${message}
 
-        Best regards,
-        The Bengali Snaps Team
+        You can reply to this inquiry by responding to ${email}.
     `;
 
     try {
         await transporter.sendMail({
-            from: `"Bengali Snaps" <${process.env.EMAIL_FROM}>`,
+            from: `"Bengali Snaps Contact Form" <${process.env.EMAIL_FROM}>`,
             to: to,
+            replyTo: email,
             subject: subject,
             text: body,
             html: `<p>${body.replace(/\n/g, '<br>')}</p>`,
