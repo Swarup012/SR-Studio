@@ -13,7 +13,6 @@ import { Calendar } from '@/components/ui/calendar';
 import { cn } from '@/lib/utils';
 import { format } from 'date-fns';
 import { useToast } from '@/hooks/use-toast';
-import { submitContactForm } from '@/app/contact/actions';
 import { useState } from 'react';
 
 const formSchema = z.object({
@@ -38,25 +37,41 @@ export function ContactForm() {
         },
     });
 
-  async function onSubmit(values: z.infer<typeof formSchema>) {
+  function onSubmit(values: z.infer<typeof formSchema>) {
     setIsSubmitting(true);
     try {
-        const result = await submitContactForm(values);
-        if (result.success) {
-            toast({
-                title: "Message Sent!",
-                description: "Thank you for contacting us. We will get back to you shortly.",
-            });
-            form.reset();
-        } else {
-            throw new Error(result.message);
-        }
+        const { name, email, phone, eventDate, message } = values;
+        const to = "swarupbasu@gmail.com";
+        const subject = `New Inquiry from ${name} via Bengali Snaps Website`;
+        const body = `
+You have received a new inquiry from your website contact form.
+
+Here are the details:
+
+Name: ${name}
+Email: ${email}
+Phone: ${phone || 'Not provided'}
+Event Date: ${format(eventDate, "PPP")}
+Message:
+${message}
+        `.trim();
+
+        const mailtoLink = `mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        
+        window.location.href = mailtoLink;
+
+        toast({
+            title: "Redirecting to your email client...",
+            description: "Please complete sending the email from your mail application.",
+        });
+        form.reset();
+
     } catch (error) {
         console.error('Form submission error:', error);
         toast({
             variant: 'destructive',
             title: "Submission Failed",
-            description: "Could not send your message. Please try again later.",
+            description: "Could not open your email client. Please try again later.",
         });
     } finally {
         setIsSubmitting(false);
@@ -163,7 +178,7 @@ export function ContactForm() {
           {isSubmitting ? (
             <>
               <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-              Submitting...
+              Preparing Email...
             </>
           ) : (
             'Submit'
